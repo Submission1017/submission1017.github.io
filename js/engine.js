@@ -10,8 +10,8 @@ highlights['Performance'] = 'rgba(51,160,44, 1)';
 highlights['Technique'] = 'rgba(143,70,168, 1)';
 highlights['Experiential'] = 'rgba(67, 205, 128, 1)';
 highlights['Social'] = 'rgba(194,165,207, 1)';
-highlights['Technique, Performance'] = 'rgba(0,109,44, 1)';
-highlights['Technique, Experiential'] = 'rgba(0,109,44, 1)';
+highlights['Multipurpose'] = 'rgba(0,109,44, 1)';
+//highlights['Technique, Experiential'] = 'rgba(0,109,44, 1)';
 var intersect_color = 'rgba(255, 100, 150, 1)'; //'rgba(0, 160, 100, 1)';//'rgba(113, 113, 198, 1)';
 
 var tooltipIsVisible = false;
