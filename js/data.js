@@ -56,20 +56,6 @@ var lit = [
     'reference number': '51',
   },
   {
-    'first author name': 'Hamada22',
-    Purpose: 'Multipurpose',
-    Year: "'20-'24",
-    Device: 'AR/VR HMD',
-    Data: 'Mostly Performance',
-    'Visual Representation': 'Undefined',
-    'Additional Modality': 'None',
-    'Has Evaluation': 'In Field',
-    '# of Participants': '11-15',
-    Title:
-      'Solitary Jogging with A Virtual Runner using Smartglasses | IEEE Conference Publication | IEEE Xplore',
-    'reference number': '52',
-  },
-  {
     'first author name': 'Gibson22',
     Purpose: 'Performance',
     Year: "'20-'24",
@@ -904,6 +890,20 @@ var lit = [
     Title:
       'Design requirements for technologies that encourage physical activity | Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (acm.org)',
     'reference number': '27',
+  },
+  {
+    'first author name': 'Hamada22',
+    Purpose: 'Multipurpose',
+    Year: "'20-'24",
+    Device: 'AR/VR HMD',
+    Data: 'Mostly Performance',
+    'Visual Representation': 'Undefined',
+    'Additional Modality': 'None',
+    'Has Evaluation': 'In Field',
+    '# of Participants': '11-15',
+    Title:
+        'Solitary Jogging with A Virtual Runner using Smartglasses | IEEE Conference Publication | IEEE Xplore',
+    'reference number': '52',
   },
   {
     'first author name': 'Curmi14',
