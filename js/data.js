@@ -1007,17 +1007,6 @@ var lit = [
 
 var node_list = [
   {
-    0: 'Performance',
-    1: 'Technique',
-    2: 'Experiential',
-    3: 'Social',
-    4: 'Multipurpose',
-    5: '',
-    6: '',
-    7: '',
-    title: 'Purpose',
-  },
-  {
     0: "'20-'24",
     1: "'15-'19",
     2: "'10-'14",
@@ -1093,5 +1082,16 @@ var node_list = [
     6: '',
     7: '',
     title: '# of Participants',
+  },
+  {
+    0: 'Performance',
+    1: 'Technique',
+    2: 'Experiential',
+    3: 'Social',
+    4: 'Multipurpose',
+    5: '',
+    6: '',
+    7: '',
+    title: 'Purpose',
   },
 ];
