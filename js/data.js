@@ -57,7 +57,7 @@ var lit = [
   },
   {
     'first author name': 'Hamada22',
-    Purpose: 'Performance',
+    Purpose: 'Multipurpose',
     Year: "'20-'24",
     Device: 'AR/VR HMD',
     Data: 'Mostly Performance',
@@ -907,7 +907,7 @@ var lit = [
   },
   {
     'first author name': 'Curmi14',
-    Purpose: 'Performance, Social',
+    Purpose: 'Multipurpose',
     Year: "'10-'14",
     Device: 'MobilePhone',
     Data: 'Mostly Performance',
@@ -921,7 +921,7 @@ var lit = [
   },
   {
     'first author name': 'Mulas11',
-    Purpose: 'Performance, Social',
+    Purpose: 'Multipurpose',
     Year: "'10-'14",
     Device: 'MobilePhone',
     Data: 'Mostly Performance',
@@ -935,7 +935,7 @@ var lit = [
   },
   {
     'first author name': 'Oliveira08',
-    Purpose: 'Performance, Social',
+    Purpose: 'Multipurpose',
     Year: "'05-'09",
     Device: 'MobilePhone',
     Data: 'Mostly Performance',
@@ -949,7 +949,7 @@ var lit = [
   },
   {
     'first author name': 'Ahtinen08',
-    Purpose: 'Performance, Social',
+    Purpose: 'Multipurpose',
     Year: "'05-'09",
     Device: 'MobilePhone',
     Data: 'Mostly Performance',
@@ -963,7 +963,7 @@ var lit = [
   },
   {
     'first author name': 'Burr22',
-    Purpose: 'Technique, Experiential',
+    Purpose: 'Multipurpose',
     Year: "'20-'24",
     Device: 'ExternalDisplay',
     Data: 'Mostly Technique',
@@ -977,7 +977,7 @@ var lit = [
   },
   {
     'first author name': 'Kiss17',
-    Purpose: 'Technique, Performance',
+    Purpose: 'Multipurpose',
     Year: "'15-'19",
     Device: 'MobilePhone',
     Data: 'Mostly Technique',
@@ -991,7 +991,7 @@ var lit = [
   },
   {
     'first author name': 'Ahn09',
-    Purpose: 'Experiential, Social',
+    Purpose: 'Multipurpose',
     Year: "'05-'09",
     Device: 'ExternalDisplay',
     Data: 'Mostly Performance',
@@ -1011,10 +1011,10 @@ var node_list = [
     1: 'Technique',
     2: 'Experiential',
     3: 'Social',
-    4: 'Technique, Experiential',
-    5: 'Technique, Performance',
-    6: 'Performance, Social',
-    7: 'Experiential, Social',
+    4: 'Multipurpose',
+    5: '',
+    6: '',
+    7: '',
     title: 'Purpose',
   },
   {
