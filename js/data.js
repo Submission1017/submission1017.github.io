@@ -98,20 +98,6 @@ var lit = [
     'reference number': '55',
   },
   {
-    'first author name': 'Niess20',
-    Purpose: 'Performance',
-    Year: "'20-'24",
-    Device: 'SmartWatch',
-    Data: 'Mostly Performance',
-    'Visual Representation': 'Text + Chart/Graph',
-    'Additional Modality': 'None',
-    'Has Evaluation': 'In Lab',
-    '# of Participants': '16-20',
-    Title:
-      'Exploring Fitness Tracker Visualisations to Avoid Rumination | 22nd International Conference on Human-Computer Interaction with Mobile Devices and Services (acm.org)',
-    'reference number': '56',
-  },
-  {
     'first author name': 'Neshati19',
     Purpose: 'Performance',
     Year: "'15-'19",
@@ -166,20 +152,6 @@ var lit = [
     Title:
       'From Problem to Solution: Developing a Personalized Smartphone Application for Recreational Runners following a Three-step Design Approach',
     'reference number': '60',
-  },
-  {
-    'first author name': 'Herrmanny16',
-    Purpose: 'Performance',
-    Year: "'15-'19",
-    Device: 'MobilePhone',
-    Data: 'Mostly Performance',
-    'Visual Representation': 'Text + Chart/Graph',
-    'Additional Modality': 'None',
-    'Has Evaluation': 'In Field',
-    '# of Participants': 'Greater than 20',
-    Title:
-      'Supporting Users in Setting Effective Goals in Activity Tracking | SpringerLink',
-    'reference number': '61',
   },
   {
     'first author name': 'Busa16',
@@ -446,20 +418,6 @@ var lit = [
     'reference number': '12',
   },
   {
-    'first author name': 'Anas14',
-    Purpose: 'Technique',
-    Year: "'10-'14",
-    Device: 'ExternalDisplay',
-    Data: 'Mostly Technique',
-    'Visual Representation': 'Text + Chart/Graph',
-    'Additional Modality': 'None',
-    'Has Evaluation': 'In Lab',
-    '# of Participants': '1-5',
-    Title:
-      'An Instrumented Insole System for Gait Monitoring and Analysis | International Journal of Online and Biomedical Engineering',
-    'reference number': '13',
-  },
-  {
     'first author name': 'Strohrmann13',
     Purpose: 'Technique',
     Year: "'10-'14",
@@ -641,6 +599,20 @@ var lit = [
     'reference number': '36',
   },
   {
+    'first author name': 'Yoo16',
+    Purpose: 'Experiential',
+    Year: "'15-'19",
+    Device: 'AR/VR HMD',
+    Data: 'Mostly Performance',
+    'Visual Representation': 'Only Text',
+    'Additional Modality': 'None',
+    'Has Evaluation': 'In Lab',
+    '# of Participants': '16-20',
+    Title:
+        'VRun: Running-in-place virtual reality exergame',
+    'reference number': '40',
+  },
+  {
     'first author name': 'Mueller15',
     Purpose: 'Experiential',
     Year: "'15-'19",
@@ -681,20 +653,6 @@ var lit = [
     Title:
       "Investigating and supporting undirected navigation for runners | CHI '13 Extended Abstracts on Human Factors in Computing Systems (acm.org)",
     'reference number': '39',
-  },
-  {
-    'first author name': 'Morie11',
-    Purpose: 'Experiential',
-    Year: "'10-'14",
-    Device: 'ExternalDisplay',
-    Data: 'Mostly Physiological',
-    'Visual Representation': 'Text + Chart/Graph',
-    'Additional Modality': 'Sonification',
-    'Has Evaluation': 'In Lab',
-    '# of Participants': 'Greater than 20',
-    Title:
-      'Report on a Preliminary Study Using Breath Control and a Virtual Jogging Scenario as Biofeedback for Resilience Training | SpringerLink',
-    'reference number': '40',
   },
   {
     'first author name': 'Turunen11',
