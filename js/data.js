@@ -268,7 +268,7 @@ var lit = [
   {
     'first author name': 'Oliver06',
     Purpose: 'Performance',
-    Year: "'05-'09",
+    Year: "'04-'09",
     Device: 'MobilePhone',
     Data: 'Mostly Performance',
     'Visual Representation': 'Text + Chart/Graph',
@@ -282,7 +282,7 @@ var lit = [
   {
     'first author name': 'Gockley06',
     Purpose: 'Performance',
-    Year: "'05-'09",
+    Year: "'04-'09",
     Device: 'SmartWatch',
     Data: 'Mostly Performance',
     'Visual Representation': 'Icon + Text',
@@ -296,7 +296,7 @@ var lit = [
   {
     'first author name': 'Makikawa04',
     Purpose: 'Performance',
-    Year: "'00-'04",
+    Year: "'04-'09",
     Device: 'MobilePhone',
     Data: 'Mostly Performance',
     'Visual Representation': 'Only Text',
@@ -461,7 +461,7 @@ var lit = [
   {
     'first author name': 'Buttussi08',
     Purpose: 'Technique',
-    Year: "'05-'09",
+    Year: "'04-'09",
     Device: 'MobilePhone',
     Data: 'Mostly Physiological',
     'Visual Representation': 'Text + Chart/Graph',
@@ -685,7 +685,7 @@ var lit = [
   {
     'first author name': 'Kwon09',
     Purpose: 'Experiential',
-    Year: "'05-'09",
+    Year: "'04-'09",
     Device: 'ExternalDisplay',
     Data: 'Mostly Technique',
     'Visual Representation': 'Only Text',
@@ -699,7 +699,7 @@ var lit = [
   {
     'first author name': 'Yamamoto08',
     Purpose: 'Experiential',
-    Year: "'05-'09",
+    Year: "'04-'09",
     Device: 'HeadPhone',
     Data: 'Mostly Multimedia',
     'Visual Representation': 'None',
@@ -713,7 +713,7 @@ var lit = [
   {
     'first author name': 'Sakata06',
     Purpose: 'Experiential',
-    Year: "'05-'09",
+    Year: "'04-'09",
     Device: 'HeadPhone',
     Data: 'Mostly Performance',
     'Visual Representation': 'None',
@@ -726,7 +726,7 @@ var lit = [
   {
     'first author name': 'Asselin05',
     Purpose: 'Experiential',
-    Year: "'05-'09",
+    Year: "'04-'09",
     Device: 'HeadPhone',
     Data: 'Mostly Physiological',
     'Visual Representation': 'None',
@@ -824,7 +824,7 @@ var lit = [
   {
     'first author name': 'Mueller07',
     Purpose: 'Social',
-    Year: "'05-'09",
+    Year: "'04-'09",
     Device: 'HeadPhone',
     Data: 'Mostly Performance',
     'Visual Representation': 'None',
@@ -838,7 +838,7 @@ var lit = [
   {
     'first author name': 'Consolvo06',
     Purpose: 'Social',
-    Year: "'05-'09",
+    Year: "'04-'09",
     Device: 'MobilePhone',
     Data: 'Mostly Performance',
     'Visual Representation': 'Only Text',
@@ -894,7 +894,7 @@ var lit = [
   {
     'first author name': 'Oliveira08',
     Purpose: 'Multipurpose',
-    Year: "'05-'09",
+    Year: "'04-'09",
     Device: 'MobilePhone',
     Data: 'Mostly Performance',
     'Visual Representation': 'Icon + Text',
@@ -908,7 +908,7 @@ var lit = [
   {
     'first author name': 'Ahtinen08',
     Purpose: 'Multipurpose',
-    Year: "'05-'09",
+    Year: "'04-'09",
     Device: 'MobilePhone',
     Data: 'Mostly Performance',
     'Visual Representation': 'Text + Chart/Graph',
@@ -950,7 +950,7 @@ var lit = [
   {
     'first author name': 'Ahn09',
     Purpose: 'Multipurpose',
-    Year: "'05-'09",
+    Year: "'04-'09",
     Device: 'ExternalDisplay',
     Data: 'Mostly Performance',
     'Visual Representation': 'Only Text',
@@ -968,8 +968,8 @@ var node_list = [
     0: "'20-'24",
     1: "'15-'19",
     2: "'10-'14",
-    3: "'05-'09",
-    4: "'00-'04",
+    3: "'04-'09",
+    4: '',
     5: '',
     6: '',
     7: '',
