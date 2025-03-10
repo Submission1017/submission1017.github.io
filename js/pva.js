@@ -380,7 +380,7 @@ function Node(title, data) {
   this.nodelings = [];
   this.createNodelings = function () {
     this.nodelings = [];
-    for (var i = 0; i < 8; ++i) {
+    for (var i = 0; i < 10; ++i) {
       if (this.data[i] != '') {
         var nodeling = new Nodeling(this.data[i]);
         nodeling.parent = this.title;
@@ -521,7 +521,7 @@ function Nodeling(name, origin, width, height) {
 
     if (drawTooltipLabels) {
       var yPos = this.origin.y + this.height / 4;
-      if (this.height / 8 < 3) {
+      if (this.height / 10 < 3) {
         yPos = this.origin.y - 20;
       }
       drawToolTip(this.name, this.origin.x + this.width / 2, yPos);
