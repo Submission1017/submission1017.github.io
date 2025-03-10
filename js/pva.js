@@ -242,7 +242,7 @@ function PVAspace(origin, width, height, literature, nodes) {
   };
 }
 
-function Paper(author, title, data) {
+function Paper(author, title, data, image) {
   this.origin = new Point(0, 0);
   this.width = 0;
   this.height = 0;
@@ -271,6 +271,11 @@ function Paper(author, title, data) {
     this.data = data;
   }
 
+  this.image = '';
+  if (typeof image != 'undefined') {
+    this.image = image;
+  }
+
   this.draw = function (context) {
     context.save();
     context.fillStyle = this.background;
@@ -291,8 +296,8 @@ function Paper(author, title, data) {
     context.textAlign = 'left';
     context.textBaseline = 'top';
     context.globalCompositeOperation = 'source-atop';
-    //context.fillText('[' + this.data['reference number'] + ']  ' + this.author, this.origin.x + 10, this.origin.y);
-    context.fillText(this.author, this.origin.x + 10, this.origin.y);
+    context.fillText('[' + this.data['reference number'] + ']  ' + this.author, this.origin.x + 10, this.origin.y);
+    //context.fillText(this.author, this.origin.x + 10, this.origin.y);
     context.restore();
   };
 

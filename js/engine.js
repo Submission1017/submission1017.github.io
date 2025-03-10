@@ -17,6 +17,8 @@ var intersect_color = 'rgba(255, 100, 150, 1)'; //'rgba(0, 160, 100, 1)';//'rgba
 var tooltipIsVisible = false;
 var drawTooltipLabels = false;
 var label = 0;
+var imagePath = 0;
+var cursorImage = 0;
 var mouse_x = 0;
 var mouse_y = 0;
 
@@ -34,6 +36,7 @@ function init() {
   // retrieve the canvas from the DOM and get its 2D context
   canvas = document.getElementById('vis');
   context = canvas.getContext('2d');
+
   // initialise the visualisation
   vis = new PVAspace(
     new Point(0, $('#ctrl_panel').height() + 50),
@@ -64,6 +67,12 @@ function init() {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 // PRESENTATION FUNCTIONS
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+function preloadImage(imagePath) {
+  cursorImage = new Image();
+  cursorImage.src = imagePath;
+}
+
+
 
 // the draw loop
 function draw() {
@@ -83,15 +92,15 @@ function draw() {
   if (vis.hasBeenAnalyzed) {
     vis.draw(context);
     if (tooltipIsVisible && !drawTooltipLabels) {
-      drawToolTip(label, mouse_x, mouse_y);
+      drawToolTip(label, mouse_x, mouse_y, imagePath);
     }
   } else {
     showLoadingScreen('choose a Purpose to get started');
   }
+
   // loop the function based on the browser's time frame
   window.requestNextAnimationFrame(draw);
 }
-
 // resize the canvas according to the window size
 function resize(analyze) {
   canvas.width = window.innerWidth;
@@ -131,7 +140,7 @@ function highlightPapers() {
 // label: (string) the tooltip label
 // x 	: (integer) the x starting position of the label
 // y	: (integer) the y starting position of the label
-function drawToolTip(label, x, y) {
+function drawToolTip(label, x, y, imagePath=0) {
   context.save();
   context.font = '14px Open Sans';
   var textSize = context.measureText(label).width;
@@ -171,7 +180,21 @@ function drawToolTip(label, x, y) {
     context.fillText(label, x - (textSize * 1.25 + 20) / 2 - 20, y + 25);
   }
   context.restore();
+
+  if (imagePath!==0) {
+    preloadImage(imagePath)
+    if (cursorImage !== 0) {
+      var imgOriginalWidth = cursorImage.width;
+      var imgOriginalHeight = cursorImage.height;
+      var ratio = imgOriginalWidth / imgOriginalHeight;
+      const imgWidth = 300; // Image width
+      const imgHeight = imgWidth / ratio;
+      context.drawImage(cursorImage, mouse_x,mouse_y + 42, imgWidth, imgHeight);
+    }
+
+  }
 }
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 // DATA FUNCTIONS
@@ -188,7 +211,8 @@ function getData(raw_literature, raw_nodes) {
     var paper = new Paper(
       this['first author name'],
       this['Title'] + ' (' + this['first author name'] + ')',
-      this
+      this,
+        this['image']
     );
     vis.literature.push(paper);
 
@@ -210,6 +234,7 @@ function mouseMove(canvas, x, y) {
     if (vis.literature[i].isHit(new Point(x, y))) {
       tooltipIsVisible = true;
       label = vis.literature[i].title;
+      imagePath = vis.literature[i].image;
       $('#vis').css({ cursor: 'pointer' });
 
       if (useCustomHighlights)
@@ -297,6 +322,7 @@ function mouseMove(canvas, x, y) {
   if (color.toString() === 'rgba(0, 0, 0, 1)') {
     tooltipIsVisible = false;
     label = '';
+    cursorImage = 0;
     $('#vis').css({ cursor: 'auto' });
   }
 

@@ -10,7 +10,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "M-AGEW: Empowering Outdoor Workouts with Data-Driven Augmented Reality Assistance | IEEE Conference Publication | IEEE Xplore",
-    'reference number': '48'
+    'reference number': '48',
+    'image': 'images/Stacchio24.png'
   },
   {
     'first author name': "Liu24",
@@ -23,7 +24,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Field",
     'Title': "Vision-based Wearable Steering Assistance for People with Impaired Vision in Jogging",
-    'reference number': '49'
+    'reference number': '49',
+    'image': 'images/Liu24.png'
   },
   {
     'first author name': "Simon23",
@@ -36,7 +38,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "No Evaluation",
     'Title': "Investigating the Use of Augmented Reality to Enhance the Indoor Running Experience on a Treadmill",
-    'reference number': '50'
+    'reference number': '50',
+    'image': 'images/Simon23.png'
   },
   {
     'first author name': "Siriaraya23",
@@ -49,7 +52,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Field",
     'Title': "Investigating the use of Spatialized Audio Augmented Reality to enhance the outdoor running experience - ScienceDirect",
-    'reference number': '51'
+    'reference number': '51',
+    'image': 'images/Siriaraya23.png'
   },
   {
     'first author name': "Gibson22",
@@ -62,7 +66,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Field",
     'Title': "CyberCoach: a Wearable Biofeedback System for Runners | IEEE Conference Publication | IEEE Xplore",
-    'reference number': '52'
+    'reference number': '52',
+    'image': 'images/Gibson22.png'
   },
   {
     'first author name': "Sporrel21",
@@ -75,7 +80,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "No Evaluation",
     'Title': "Frontiers | The Design and Development of a Personalized Leisure Time Physical Activity Application Based on Behavior Change Theories, End-User Perceptions, and Principles From Empirical Data Mining (frontiersin.org)",
-    'reference number': '53'
+    'reference number': '53',
+    'image': 'images/Sporrel21.png'
   },
   {
     'first author name': "Neshati21",
@@ -88,7 +94,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Lab",
     'Title': "SF-LG: Space-Filling Line Graphs for Visualizing Interrelated Time-series Data on Smartwatches | Proceedings of the 23rd International Conference on Mobile Human-Computer Interaction (acm.org)",
-    'reference number': '54'
+    'reference number': '54',
+    'image': 'images/Neshati21.png'
   },
   {
     'first author name': "Neshati19",
@@ -101,7 +108,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Lab",
     'Title': "G-Sparks: Glanceable Sparklines on Smartwatches • Graphics Interface",
-    'reference number': '55'
+    'reference number': '55',
+    'image': 'images/Neshati19.png'
   },
   {
     'first author name': "Smyth18",
@@ -114,7 +122,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "No Evaluation",
     'Title': "An Analysis of Case Representations for Marathon Race Prediction and Planning | SpringerLink",
-    'reference number': '56'
+    'reference number': '56',
+    'image': 'images/Smyth18.png'
   },
   {
     'first author name': "Colley18",
@@ -127,7 +136,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Lab",
     'Title': "Shoe integrated displays | Proceedings of the 10th Nordic Conference on Human-Computer Interaction (acm.org)",
-    'reference number': '57'
+    'reference number': '57',
+    'image': 'images/Colley18.png'
   },
   {
     'first author name': "Vos17",
@@ -140,7 +150,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "From Problem to Solution: Developing a Personalized Smartphone Application for Recreational Runners following a Three-step Design Approach",
-    'reference number': '58'
+    'reference number': '58',
+    'image': 'images/Vos17.png'
   },
   {
     'first author name': "Gouveia16",
@@ -153,7 +164,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Exploring the design space of glanceable feedback for physical activity trackers | Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
-    'reference number': '60'
+    'reference number': '60',
+    'image': 'images/Gouveia16.png'
   },
   {
     'first author name': "Chen15",
@@ -166,7 +178,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Lab",
     'Title': "A wearable virtual coach for Marathon beginners | IEEE Conference Publication | IEEE Xplore",
-    'reference number': '61'
+    'reference number': '61',
+    'image': 'images/Chen15.png'
   },
   {
     'first author name': "Hao15",
@@ -179,7 +192,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Field",
     'Title': "RunBuddy | Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
-    'reference number': '62'
+    'reference number': '62',
+    'image': 'images/Hao15.png'
   },
   {
     'first author name': "Richer15",
@@ -192,7 +206,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Novel human computer interaction principles for cardiac feedback using google glass and Android wear | IEEE Conference Publication | IEEE Xplore",
-    'reference number': '63'
+    'reference number': '63',
+    'image': 'images/Richer15.png'
   },
   {
     'first author name': "Kitahara14",
@@ -205,7 +220,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Field",
     'Title': "Music Synchronizer with Runner’s Pace for Supporting Steady Pace Jogging | SpringerLink",
-    'reference number': '64'
+    'reference number': '64',
+    'image': 'images/Kitahara14.png'
   },
   {
     'first author name': "Fortmann12",
@@ -218,7 +234,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Field",
     'Title': "PaceGuard | Proceedings of the 14th international conference on Human-computer interaction with mobile devices and services companion (acm.org)",
-    'reference number': '65'
+    'reference number': '65',
+    'image': 'images/Fortmann12.png'
   },
   {
     'first author name': "Rubisch10",
@@ -231,7 +248,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "No Evaluation",
     'Title': "A mobile music concept as support for achieving target heart rate in preventive and recreational endurance training | Proceedings of the 5th Audio Mostly Conference: A Conference on Interaction with Sound (acm.org)",
-    'reference number': '66'
+    'reference number': '66',
+    'image': 'images/Rubisch10.png'
   },
   {
     'first author name': "Oliver06",
@@ -244,7 +262,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Lab",
     'Title': "MPTrain | Proceedings of the 8th conference on Human-computer interaction with mobile devices and services (acm.org)",
-    'reference number': '67'
+    'reference number': '67',
+    'image': 'images/Oliver06.png'
   },
   {
     'first author name': "Gockley06",
@@ -257,7 +276,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "No Evaluation",
     'Title': "AVIVA | CHI '06 Extended Abstracts on Human Factors in Computing Systems (acm.org)",
-    'reference number': '68'
+    'reference number': '68',
+    'image': 'images/Gockley06.png'
   },
   {
     'first author name': "Makikawa04",
@@ -270,7 +290,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Jogging support system with portable monitoring device and health manage software - PubMed (nih.gov)",
-    'reference number': '69'
+    'reference number': '69',
+    'image': 'images/Makikawa04.png'
   },
   {
     'first author name': "Eom23",
@@ -283,7 +304,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Running Gait Posture Optimization Using Embedded IoT Sensor Shoes | IEEE Conference Publication | IEEE Xplore",
-    'reference number': '36'
+    'reference number': '36',
+    'image': 'images/Eom23.png'
   },
   {
     'first author name': "Schiewe20",
@@ -296,7 +318,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Lab",
     'Title': "A Study on Real-Time Visualizations During Sports Activities on Smartwatches (acm.org)",
-    'reference number': '37'
+    'reference number': '37',
+    'image': 'images/Schiewe20.png'
   },
   {
     'first author name': "Morris20",
@@ -309,7 +332,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Field",
     'Title': "Using real‐time biofeedback to alter running biomechanics: A randomized controlled trial - Morris - 2020 - TRANSLATIONAL SPORTS MEDICINE - Wiley Online Library",
-    'reference number': '38'
+    'reference number': '38',
+    'image': 'images/Morris20.png'
   },
   {
     'first author name': "Valsted17",
@@ -322,7 +346,8 @@ var lit = [
     'Additional Modality': "Haptic",
     'Evaluation': "In Field",
     'Title': "Strive: exploring assistive haptic feedback on the run",
-    'reference number': '39'
+    'reference number': '39',
+    'image': 'images/Valsted17.png'
   },
   {
     'first author name': "Hassan17",
@@ -335,7 +360,8 @@ var lit = [
     'Additional Modality': "Haptic",
     'Evaluation': "In Lab",
     'Title': "FootStriker: An EMS-based Foot Strike Assistant for Running: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies: Vol 1, No 1",
-    'reference number': '40'
+    'reference number': '40',
+    'image': 'images/Hassan17.png'
   },
   {
     'first author name': "Seuter16",
@@ -348,7 +374,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Live-feedback from the IMUs | Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct",
-    'reference number': '41'
+    'reference number': '41',
+    'image': 'images/Seuter16.png'
   },
   {
     'first author name': "Nylander14",
@@ -361,7 +388,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Lab",
     'Title': "RunRight - Real-time visual and audio feedback on running",
-    'reference number': '42'
+    'reference number': '42',
+    'image': 'images/Nylander14.png'
   },
   {
     'first author name': "Tominaga14",
@@ -374,7 +402,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Around me: A system with an escort robot providing a sports player’s self-images.",
-    'reference number': '43'
+    'reference number': '43',
+    'image': 'images/Tominaga14.png'
   },
   {
     'first author name': "Strohrmann13",
@@ -387,7 +416,8 @@ var lit = [
     'Additional Modality': "Haptic",
     'Evaluation': "In Field",
     'Title': "Can Smartphones Help with Running Technique? - ScienceDirect",
-    'reference number': '44'
+    'reference number': '44',
+    'image': 'images/Strohrmann13.png'
   },
   {
     'first author name': "Eriksson11",
@@ -400,7 +430,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Lab",
     'Title': "Immediate effect of visual and auditory feedback to control the running mechanics of well-trained athletes (tandfonline.com)",
-    'reference number': '45'
+    'reference number': '45',
+    'image': 'images/Eriksson11.png'
   },
   {
     'first author name': "Higuchi11",
@@ -413,7 +444,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "No Evaluation",
     'Title': "Flying sports assistant | Proceedings of the 2nd Augmented Human International Conference (acm.org)",
-    'reference number': '46'
+    'reference number': '46',
+    'image': 'images/Higuchi11.png'
   },
   {
     'first author name': "Buttussi08",
@@ -426,7 +458,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "No Evaluation",
     'Title': "MOPET: A context-aware and user-adaptive wearable system for fitness training - ScienceDirect",
-    'reference number': '47'
+    'reference number': '47',
+    'image': 'images/Buttussi08.png'
   },
   {
     'first author name': "Balasubramaniam23",
@@ -439,7 +472,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Running with a Drone for Pace Setting, Video Reflection, and Beyond: An Experiential Study",
-    'reference number': '5'
+    'reference number': '5',
+    'image': 'images/Balasubramaniam23.png'
   },
   {
     'first author name': "Van Renswouw21",
@@ -452,7 +486,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Field",
     'Title': "Sensation: Sonifying the Urban Running Experience | Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (acm.org)",
-    'reference number': '6'
+    'reference number': '6',
+    'image': 'images/Van Renswouw21.png'
   },
   {
     'first author name': "Noordin20",
@@ -465,7 +500,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "No Evaluation",
     'Title': "Stay fit during COVID-19, a study using interactive jogging application (JOGA)",
-    'reference number': '7'
+    'reference number': '7',
+    'image': 'images/Noordin20.png'
   },
   {
     'first author name': "Álvarez20",
@@ -478,7 +514,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "No Evaluation",
     'Title': "Mobile music recommendations for runners based on location and emotions: The DJ-Running system - ScienceDirect",
-    'reference number': '8'
+    'reference number': '8',
+    'image': 'images/Álvarez20.png'
   },
   {
     'first author name': "Gallo20",
@@ -491,7 +528,8 @@ var lit = [
     'Additional Modality': "Sonification, Haptic",
     'Evaluation': "In Field",
     'Title': "RunAhead: Exploring Head Scanning based Navigation for Runners | Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (acm.org)",
-    'reference number': '9'
+    'reference number': '9',
+    'image': 'images/Gallo20.png'
   },
   {
     'first author name': "Ioannou19",
@@ -504,7 +542,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Lab",
     'Title': "Virtual Performance Augmentation in an Immersive Jump & Run Exergame | Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (acm.org)",
-    'reference number': '10'
+    'reference number': '10',
+    'image': 'images/Ioannou19.png'
   },
   {
     'first author name': "Witkowski18",
@@ -517,7 +556,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "No Evaluation",
     'Title': "Running With Zombies: Capturing New Worlds Through Movement and Visibility Practices With Zombies, Run! - Emma Witkowski, 2018 (sagepub.com)",
-    'reference number': '11'
+    'reference number': '11',
+    'image': 'images/Witkowski18.png'
   },
   {
     'first author name': "Ali18",
@@ -530,7 +570,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Lab",
     'Title': "Virtual reality as a physical training assistant | IEEE Conference Publication | IEEE Xplore",
-    'reference number': '12'
+    'reference number': '12',
+    'image': 'images/Ali18.png'
   },
   {
     'first author name': "Yoo16",
@@ -543,7 +584,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Lab",
     'Title': "VRun: Running-in-place virtual reality exergame",
-    'reference number': '14'
+    'reference number': '14',
+    'image': 'images/Yoo16.png'
   },
   {
     'first author name': "Mueller15",
@@ -556,7 +598,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Jogging with a Quadcopter | Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems",
-    'reference number': '15'
+    'reference number': '15',
+    'image': 'images/Mueller15.png'
   },
   {
     'first author name': "McKenzie14",
@@ -569,7 +612,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Design Elements and Feasibility of an Organized Multiplayer Mobile Active Videogame for Primary School-Aged Children | Games for Health Journal (liebertpub.com)",
-    'reference number': '16'
+    'reference number': '16',
+    'image': 'images/McKenzie14.png'
   },
   {
     'first author name': "McGookin13",
@@ -582,7 +626,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "No Evaluation",
     'Title': "Investigating and supporting undirected navigation for runners | CHI '13 Extended Abstracts on Human Factors in Computing Systems (acm.org)",
-    'reference number': '17'
+    'reference number': '17',
+    'image': 'images/McGookin13.png'
   },
   {
     'first author name': "Turunen11",
@@ -595,7 +640,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Lab",
     'Title': "Multimodal and mobile conversational Health and Fitness Companions | Computer Speech and Language (acm.org)",
-    'reference number': '18'
+    'reference number': '18',
+    'image': 'images/Turunen11.png'
   },
   {
     'first author name': "Buttussi10",
@@ -608,7 +654,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Field",
     'Title': "Smarter Phones for Healthier Lifestyles: An Adaptive Fitness Game | IEEE Journals & Magazine | IEEE Xplore",
-    'reference number': '19'
+    'reference number': '19',
+    'image': 'images/Buttussi10.png'
   },
   {
     'first author name': "Kwon09",
@@ -621,7 +668,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Lab",
     'Title': "ReadingMate | CHI '09 Extended Abstracts on Human Factors in Computing Systems (acm.org)",
-    'reference number': '20'
+    'reference number': '20',
+    'image': 'images/Kwon09.png'
   },
   {
     'first author name': "Yamamoto08",
@@ -634,7 +682,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Lab",
     'Title': "Foot-Step Input Method for Operating Information Devices While Jogging | Proceedings of the 2008 International Symposium on Applications and the Internet (acm.org)",
-    'reference number': '21'
+    'reference number': '21',
+    'image': 'images/Yamamoto08.png'
   },
   {
     'first author name': "Sakata06",
@@ -647,7 +696,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "No Evaluation",
     'Title': "Situated Music: An Application to Interactive Jogging",
-    'reference number': '22'
+    'reference number': '22',
+    'image': 'images/Sakata06.png'
   },
   {
     'first author name': "Asselin05",
@@ -660,7 +710,8 @@ var lit = [
     'Additional Modality': "Sonification, Haptic",
     'Evaluation': "In Lab",
     'Title': "Implementation and evaluation of the personal wellness coach | IEEE Conference Publication | IEEE Xplore",
-    'reference number': '23'
+    'reference number': '23',
+    'image': 'images/Asselin05.png'
   },
   {
     'first author name': "Tong24",
@@ -673,7 +724,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "VisTellAR: Embedding Data Visualization to Short-form Videos Using Mobile Augmented Reality.",
-    'reference number': '24'
+    'reference number': '24',
+    'image': 'images/Tong24.png'
   },
   {
     'first author name': "Baldursson21",
@@ -686,7 +738,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Lab",
     'Title': "DroRun: Drone Visual Interactions to Mediate a Running Group | Companion of the 2021 ACM/IEEE International Conference on Human-Robot Interaction",
-    'reference number': '25'
+    'reference number': '25',
+    'image': 'images/Baldursson21.png'
   },
   {
     'first author name': "Woźniak15",
@@ -699,7 +752,8 @@ var lit = [
     'Additional Modality': "Haptic",
     'Evaluation': "In Field",
     'Title': "RUFUS | Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (acm.org)",
-    'reference number': '26'
+    'reference number': '26',
+    'image': 'images/Woźniak15.png'
   },
   {
     'first author name': "Kishino14",
@@ -712,7 +766,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Virtual Marathon System Where Humans and Agents Compete | Proceedings of the 4th International Conference on Web Intelligence, Mining and Semantics (WIMS14) (acm.org)",
-    'reference number': '27'
+    'reference number': '27',
+    'image': 'images/Kishino14.png'
   },
   {
     'first author name': "Mauriello14",
@@ -725,7 +780,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Social fabric fitness | Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (acm.org)",
-    'reference number': '28'
+    'reference number': '28',
+    'image': 'images/Mauriello14.png'
   },
   {
     'first author name': "Häkkilä13",
@@ -738,7 +794,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Lab",
     'Title': "Jogging in a virtual city | Proceedings of the 12th International Conference on Mobile and Ubiquitous Multimedia (acm.org)",
-    'reference number': '29'
+    'reference number': '29',
+    'image': 'images/Häkkilä13.png'
   },
   {
     'first author name': "Mueller07",
@@ -751,7 +808,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Lab",
     'Title': "Jogging over a distance: Supporting a 'jogging together' experience although being apart",
-    'reference number': '30'
+    'reference number': '30',
+    'image': 'images/Mueller07.png'
   },
   {
     'first author name': "Consolvo06",
@@ -764,7 +822,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Design requirements for technologies that encourage physical activity | Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (acm.org)",
-    'reference number': '31'
+    'reference number': '31',
+    'image': 'images/Consolvo06.png'
   },
   {
     'first author name': "Hamada22",
@@ -777,7 +836,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Solitary Jogging with A Virtual Runner using Smartglasses | IEEE Conference Publication | IEEE Xplore",
-    'reference number': '34'
+    'reference number': '34',
+    'image': 'images/Hamada22.png'
   },
   {
     'first author name': "Burr22",
@@ -790,7 +850,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Lab",
     'Title': "Breathing Training on the Run: Exploring Users Perception on a Gamified Breathing Training Application During Treadmill Running | SpringerLink",
-    'reference number': '35'
+    'reference number': '35',
+    'image': 'images/Burr22.png'
   },
   {
     'first author name': "Kiss17",
@@ -803,7 +864,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Lab",
     'Title': "RunMerge: Towards Enhanced Proprioception for Advanced Amateur Runners (acm.org)",
-    'reference number': '33'
+    'reference number': '33',
+    'image': 'images/Kiss17.png'
   },
   {
     'first author name': "Curmi14",
@@ -816,7 +878,8 @@ var lit = [
     'Additional Modality': "Haptic",
     'Evaluation': "No Evaluation",
     'Title': "Sharing real-time biometric data across social networks | Proceedings of the 2014 conference on Designing interactive systems (acm.org)",
-    'reference number': '1'
+    'reference number': '1',
+    'image': 'images/Curmi14.png'
   },
   {
     'first author name': "Mulas11",
@@ -829,7 +892,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Lab",
     'Title': "Everywhere run | Proceedings of the 8th International Conference on Advances in Computer Entertainment Technology (acm.org)",
-    'reference number': '2'
+    'reference number': '2',
+    'image': 'images/Mulas11.png'
   },
   {
     'first author name': "Ahn09",
@@ -842,7 +906,8 @@ var lit = [
     'Additional Modality': "Haptic",
     'Evaluation': "In Lab",
     'Title': "Running or gaming | Proceedings of the International Conference on Advances in Computer Entertainment Technology (acm.org)",
-    'reference number': '32'
+    'reference number': '32',
+    'image': 'images/Ahn09.png'
   },
   {
     'first author name': "Oliveira08",
@@ -855,7 +920,8 @@ var lit = [
     'Additional Modality': "Sonification",
     'Evaluation': "In Field",
     'Title': "TripleBeat | Proceedings of the 10th international conference on Human computer interaction with mobile devices and services (acm.org)",
-    'reference number': '3'
+    'reference number': '3',
+    'image': 'images/Oliveira08.png'
   },
   {
     'first author name': "Ahtinen08",
@@ -868,7 +934,8 @@ var lit = [
     'Additional Modality': "None",
     'Evaluation': "In Field",
     'Title': "Tracking Outdoor Sports --- User Experience Perspective | Proceedings of the European Conference on Ambient Intelligence (acm.org)",
-    'reference number': '4'
+    'reference number': '4',
+    'image': 'images/Ahtinen08.png'
   },
 ];
 
