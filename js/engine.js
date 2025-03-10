@@ -189,7 +189,11 @@ function drawToolTip(label, x, y, imagePath = 0) {
             var ratio = imgOriginalWidth / imgOriginalHeight;
             const imgWidth = 300; // Image width
             const imgHeight = imgWidth / ratio;
-            context.drawImage(cursorImage, mouse_x, mouse_y + 42, imgWidth, imgHeight);
+            if(y+imgHeight > canvas.height){
+                context.drawImage(cursorImage, mouse_x, mouse_y - imgHeight, imgWidth, imgHeight);
+            }
+            else{
+            context.drawImage(cursorImage, mouse_x, mouse_y + 42, imgWidth, imgHeight);}
         }
 
     }
