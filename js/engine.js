@@ -131,7 +131,8 @@ function showLoadingScreen(msg) {
 function highlightPapers() {
     for (var i = 0; i < highlighted_papers.length; ++i) {
         highlighted_papers[i].isHighlighted = true;
-        highlighted_papers[i].background = intersect_color;
+        //highlighted_papers[i].background = intersect_color;
+        highlighted_papers[i].background =highlights[highlighted_papers[i].data.Purpose]
         highlighted_papers[i].foreground = 'white';
     }
 }
