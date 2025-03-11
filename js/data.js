@@ -51,7 +51,7 @@ var lit = [{
         'Data': "Mostly Performance",
         'Data Abstraction': "Abstract",
         'Visual Encoding': "2D, Non-visual",
-        'Embeddedness': "N.A.",
+        'Embeddedness': "Co-located",
         'Interaction Space': "Peripersonal",
         'Evaluation': "In Field",
         'Title': "Investigating the use of Spatialized Audio Augmented Reality to enhance the outdoor running experience - ScienceDirect",
