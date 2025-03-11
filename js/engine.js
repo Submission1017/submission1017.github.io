@@ -346,7 +346,8 @@ function mouseClick(canvas, x, y) {
                     membership();
                 } else {
                     node.isHighlighted = true;
-                    node.highlight = intersect_color;
+                    node.highlight = highlights[node.name]||intersect_color;
+
                     focused_nodes.push(node);
                     membership();
                     return;
