@@ -31,6 +31,10 @@ var _index = -1;
 var _num = 0;
 var vis_inited = false;
 
+
+var showLit = true;
+var showWorkshop = true;
+
 // initialise function
 function init() {
     // retrieve the canvas from the DOM and get its 2D context
@@ -43,7 +47,7 @@ function init() {
         canvas.width,
         canvas.height - ($('#ctrl_panel').height() + 100)
     );
-    getData(lit, node_list);
+    getData(lit.concat(workshop), node_list);
     // resize the canvas to fill in the window
     resize();
 
@@ -62,6 +66,7 @@ function init() {
     }
     draw();
     vis_inited = true;
+    toggleWorkshop();
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -72,6 +77,32 @@ function preloadImage(imagePath) {
     cursorImage.src = imagePath;
 }
 
+
+function toggleLit() {
+    showLit = !showLit;
+    updateVisualization();
+}
+
+function toggleWorkshop() {
+    showWorkshop = !showWorkshop;
+    updateVisualization();
+}
+
+function updateVisualization() {
+    vis.literature = [];
+    if (showLit && showWorkshop) {
+        getData(lit.concat(workshop), node_list);
+    }
+    else if (showLit && !showWorkshop) {
+        getData(lit, node_list);
+    }
+    else if (!showLit && showWorkshop) {
+        getData(workshop, node_list);
+    }
+
+    resize();
+    draw();
+}
 
 // the draw loop
 function draw() {
@@ -206,11 +237,12 @@ function drawToolTip(label, x, y, imagePath = 0) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function getData(raw_literature, raw_nodes) {
+    if(!vis_inited){
     $(jQuery.parseJSON(JSON.stringify(raw_nodes))).each(function () {
         var node = new Node(this['title'], this);
         node.createNodelings();
         vis.nodes.push(node);
-    });
+    });}
 
     $(jQuery.parseJSON(JSON.stringify(raw_literature))).each(function () {
         var paper = new Paper(
