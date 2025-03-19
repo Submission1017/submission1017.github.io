@@ -59,6 +59,9 @@ var lit = [{'first author name': "Stacchio24", 'Purpose': "Instructional", 'Year
     {'first author name': "Ahtinen08", 'Purpose': "Multipurpose", 'Year': "'04-'09", 'Device': "MobilePhone", 'Data': "Performance, Physiological", 'Data Abstraction': "Abstract, Mixed", 'Visual Encoding': "2D", 'Embeddedness': "Co-located", 'Interaction Space': "Peripersonal", 'Evaluation': "In Field", 'Title': "Tracking Outdoor Sports --- User Experience Perspective | Proceedings of the European Conference on Ambient Intelligence (acm.org)", 'Unnamed: 11': "Ahtinen08", 'reference number': '52','image': 'images/Ahtinen08.png'},
 ]
 
+
+
+
 var workshop=[/////////////////////////// User Proposed ///////////////////////////
     {'first author name': "1", 'Purpose': "Instructional", 'Year': "Workshop", 'Device': "AR/VR HMD", 'Data': "Performance", 'Visual Encoding': "2D", 'Embeddedness': "Embedded", 'Interaction Space': "Ambient-Extrapersonal", 'RawPurpose': "Instructional", 'Title': "1", 'reference number': 'UserProposed','image': 'images/1.png'},
     {'first author name': "5", 'Purpose': "Instructional", 'Year': "Workshop", 'Device': "AR/VR HMD", 'Data': "Performance, Physiological", 'Visual Encoding': "Textual", 'Embeddedness': "Co-located", 'Interaction Space': "Peripersonal", 'RawPurpose': "Instructional", 'Title': "5", 'reference number': 'UserProposed','image': 'images/5.png'},
