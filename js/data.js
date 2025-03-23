@@ -60,9 +60,9 @@ var lit = [{'first author name': "Stacchio24", 'Purpose': "Instructional", 'Year
 ]
 
 
+var workshop=[]
 
-
-var workshop=[/////////////////////////// User Proposed ///////////////////////////
+/*var workshop=[/////////////////////////// User Proposed ///////////////////////////
     {'first author name': "1", 'Purpose': "Instructional", 'Year': "Workshop", 'Device': "AR/VR HMD", 'Data': "Performance", 'Visual Encoding': "2D", 'Embeddedness': "Embedded", 'Interaction Space': "Ambient-Extrapersonal", 'RawPurpose': "Instructional", 'Title': "1", 'reference number': 'UserProposed','image': 'images/1.png'},
     {'first author name': "5", 'Purpose': "Instructional", 'Year': "Workshop", 'Device': "AR/VR HMD", 'Data': "Performance, Physiological", 'Visual Encoding': "Textual", 'Embeddedness': "Co-located", 'Interaction Space': "Peripersonal", 'RawPurpose': "Instructional", 'Title': "5", 'reference number': 'UserProposed','image': 'images/5.png'},
     {'first author name': "7", 'Purpose': "Instructional", 'Year': "Workshop", 'Device': "AR/VR HMD", 'Data': "Performance, Physiological", 'Visual Encoding': "Textual", 'Embeddedness': "Co-located", 'Interaction Space': "Peripersonal", 'RawPurpose': "Instructional", 'Title': "7", 'reference number': 'UserProposed','image': 'images/7.png'},
@@ -109,7 +109,7 @@ var workshop=[/////////////////////////// User Proposed ////////////////////////
     {'first author name': "32", 'Purpose': "Multipurpose", 'Year': "Workshop", 'Device': "AR/VR HMD", 'Data': "Performance, Location-based", 'Visual Encoding': "3D", 'Embeddedness': "Embedded", 'Interaction Space': "Action-Extrapersonal", 'RawPurpose': "Instructional, Experiential", 'Title': "32", 'reference number': 'UserProposed','image': 'images/32.png'},
     {'first author name': "39", 'Purpose': "Multipurpose", 'Year': "Workshop", 'Device': "AR/VR HMD", 'Data': "Performance, Location-based", 'Visual Encoding': "3D", 'Embeddedness': "Embedded", 'Interaction Space': "Action-Extrapersonal", 'RawPurpose': "Instructional, Experiential", 'Title': "39", 'reference number': 'UserProposed','image': 'images/39.png'},
     {'first author name': "40", 'Purpose': "Multipurpose", 'Year': "Workshop", 'Device': "AR/VR HMD", 'Data': "Location-based", 'Visual Encoding': "2D", 'Embeddedness': "Embedded", 'Interaction Space': "Action-Extrapersonal", 'RawPurpose': "Instructional, Experiential", 'Title': "40", 'reference number': 'UserProposed','image': 'images/40.png'},
-]
+]*/
 
 var node_list = [
     {
@@ -117,7 +117,7 @@ var node_list = [
         1: "'15-'19",
         2: "'10-'14",
         3: "'04-'09",
-        4: "Workshop",
+        4: "",
         5: '',
         6: '',
         7: '',
@@ -132,8 +132,8 @@ var node_list = [
         1: 'SmartWatch',
         2: 'AR/VR HMD',
         3: 'ExternalDisplay',
-        4: 'Other Body-worn Device',
-        5: 'Drone/Robot',
+        4: 'Drone/Robot',
+        5: 'Other Body-worn Device',
         6: '',
         7: '',
         8: '',
@@ -154,7 +154,7 @@ var node_list = [
         8: 'Technique, Multimedia',
         9: 'Location-based',
         10: 'Multimedia',
-        11: 'Multimedia, Location-based',
+        11: '',
         title: 'Data',
     },
     // {
@@ -179,7 +179,7 @@ var node_list = [
         5: '3D, Non-visual',
         6: 'Textual',
         7: 'Textual, Non-visual',
-        8: 'N.A.',
+        8: '',
         9: '',
         10: '',
         11: '',
@@ -188,7 +188,7 @@ var node_list = [
     {
         0: 'Co-located',
         1: 'Embedded',
-        2: 'N.A.',
+        2: '',
         3: '',
         4: '',
         5: '',

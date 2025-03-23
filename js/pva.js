@@ -289,7 +289,7 @@ function Paper(author, title, data, image) {
     if (lit.length <= 10) '13px';
     else if (lit.length > 10 && lit.length < 30) author_font_size = '12px';
     else if (lit.length < 40) author_font_size = '11px';
-    else if (lit.length < 80) author_font_size = '10px';
+    else if (lit.length < 80) author_font_size = '13px';
     else author_font_size = '7px';
 
     context.font = author_font_size + ' Open Sans';
@@ -380,7 +380,7 @@ function Node(title, data) {
   this.nodelings = [];
   this.createNodelings = function () {
     this.nodelings = [];
-    for (var i = 0; i < 12; ++i) {
+    for (var i = 0; i < 11; ++i) {
       if (this.data[i] != '') {
         var nodeling = new Nodeling(this.data[i]);
         nodeling.parent = this.title;
@@ -411,7 +411,7 @@ function Node(title, data) {
 
   this.draw = function (context, set) {
     context.save();
-    context.font = '18px Open Sans';
+    context.font = '20px Open Sans';
     context.textAlign = 'center';
     context.textBaseline = 'top';
     context.fillText(
@@ -507,7 +507,7 @@ function Nodeling(name, origin, width, height) {
 
     context.fillStyle = this.foreground;
     if (drawTooltipLabels) context.font = '0px Open Sans';
-    else context.font = '14px Open Sans';
+    else context.font = '22px Open Sans';
 
     context.textAlign = 'left';
     context.textBaseline = 'middle';
@@ -521,7 +521,7 @@ function Nodeling(name, origin, width, height) {
 
     if (drawTooltipLabels) {
       var yPos = this.origin.y + this.height / 4;
-      if (this.height / 12 < 3) {
+      if (this.height / 11 < 3) {
         yPos = this.origin.y - 20;
       }
       drawToolTip(this.name, this.origin.x + this.width / 2, yPos);
