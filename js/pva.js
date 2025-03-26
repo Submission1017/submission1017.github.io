@@ -507,7 +507,7 @@ function Nodeling(name, origin, width, height) {
 
     context.fillStyle = this.foreground;
     if (drawTooltipLabels) context.font = '0px Open Sans';
-    else context.font = '22px Open Sans';
+    else context.font = '18px Open Sans';
 
     context.textAlign = 'left';
     context.textBaseline = 'middle';

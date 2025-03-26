@@ -6,13 +6,13 @@ var highlight_color = 'rgba(178,223,138, 1)';
 
 var useCustomHighlights = true;
 var highlights = [];
-highlights['Instructional'] = 'rgba(51,160,44, 1)';
-highlights['Experiential'] = 'rgba(143,70,168, 1)';
-highlights['Multipurpose'] = 'rgba(67, 205, 205, 1)';
-highlights['Social'] = 'rgba(255,120,0, 1)';
+highlights['Peripersonal'] = 'rgba(112,214,255, 1)';
+highlights['Focal-Extrapersonal'] = 'rgba(255,112,166, 1)';
+highlights['Action-Extrapersonal'] = 'rgba(255, 151, 112, 1)';
+highlights['Ambient-Extrapersonal'] = 'rgba(255,214,112, 1)';
 //highlights['Multipurpose'] = 'rgba(0,109,44, 1)';
 //highlights['Technique, Experiential'] = 'rgba(0,109,44, 1)';
-var intersect_color = 'rgba(255, 100, 150, 1)'; //'rgba(0, 160, 100, 1)';//'rgba(113, 113, 198, 1)';
+var intersect_color = 'rgba(122, 122, 150, 1)'; //'rgba(0, 160, 100, 1)';//'rgba(113, 113, 198, 1)';
 
 var tooltipIsVisible = false;
 var drawTooltipLabels = false;
@@ -163,7 +163,7 @@ function highlightPapers() {
     for (var i = 0; i < highlighted_papers.length; ++i) {
         highlighted_papers[i].isHighlighted = true;
         //highlighted_papers[i].background = intersect_color;
-        highlighted_papers[i].background =highlights[highlighted_papers[i].data.Purpose]
+        highlighted_papers[i].background =highlights[highlighted_papers[i].data['Interaction Space']]
         highlighted_papers[i].foreground = 'white';
     }
 }
@@ -276,7 +276,7 @@ function mouseMove(canvas, x, y) {
 
             if (useCustomHighlights)
                 vis.literature[i].background =
-                    highlights[vis.literature[i].data.Purpose];
+                    highlights[vis.literature[i].data['Interaction Space']];
             else vis.literature[i].background = highlight_color;
 
             vis.literature[i].foreground = 'white';
@@ -336,7 +336,7 @@ function mouseMove(canvas, x, y) {
                         ) {
                             if (useCustomHighlights)
                                 vis.literature[k].background =
-                                    highlights[vis.literature[k].data.Purpose];
+                                    highlights[vis.literature[k].data['Interaction Space']];
                             else vis.literature[k].background = highlight_color;
 
                             vis.literature[k].foreground = 'white';
