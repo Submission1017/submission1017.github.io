@@ -374,7 +374,7 @@ var lit = [
         'Device': "MobilePhone",
         'Data': "Performance",
         'Data Abstraction': "Abstract",
-        'Visual Encoding': "Textual",
+        'Visual Encoding': "Textual, Non-visual",
         'Embeddedness': "Co-located",
         'Interaction Space': "Peripersonal",
         'Evaluation': "In Lab",
